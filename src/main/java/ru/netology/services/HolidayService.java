@@ -10,8 +10,7 @@ public class HolidayService {
                 money = money - expenses;
                 money = money / 3;
                 count++; // увеличиваем счётчик месяцев отдыха
-            }
-            else {
+            } else {
                 System.out.println("Месяц. " + month + " Денег. " + money + " Придется работать. Заработал +" + income + ". Потратил -" + expenses);
                 money = money + income - expenses;
             }
